@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    margin: 1% 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.mainContent{
+    margin: 2% 0;
+}
