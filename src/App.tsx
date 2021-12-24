@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Routes>
           {
-            routes.map(route => <Route element={route.element} path={route.path} exact={route.exact} key={route.path} />)
+            routes.map(route => <Route element={route.element} path={route.path} key={route.path} />)
           }
         </Routes>
     </div>
